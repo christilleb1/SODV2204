@@ -1,0 +1,22 @@
+html {
+    background:pink;
+}
+body {
+    text-align: center;
+}
+img {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+h1 {
+    background-color: purple; 
+    border-style: double;
+    color: white;
+    font-size: 50px
+}
+h2 {
+    background-color: red
+}
+h3 {
+    background-color: mediumaquamarine;
+}
