@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.*/
+    /*The width and height properties (and min/max properties) includes content, padding and border*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    color: black;
+    font-size: 1.2rem;
+    background-color: yellow;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 0rem 1rem 0rem 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.topnavbar {
+    display: flex; /* Make the topnavbar flexible */
+    justify-content: center; /* Make the topnavbar's content centered */
+    padding: 1rem 0 1rem 0;
+    background-color: #353232;
+}
+
+#banner {
+    background: url(talking_heads-speaking_in_tongues.png);
+    /* Album Photo on banner back end */
+    background-size: cover;
+    /*The background-position property sets the starting position of a background image.*/
+    background-position: center; 
+}
+
+.BlackBanner{
+    background-color: #282828;
+    display: flex;
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bannerText h1{
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+#bannerText{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+#bannerImg {
+    margin: auto; /*The browser calculates the margin on all sides*/
+    padding: 1rem;  
+}
+
+#bannerImg img{
+    height: 15rem;
+    width: 15rem;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 3rem;
+}
+
+#asideText{
+    width: 350px;
+}
+
+aside h2 {
+    background-color: yellow;
+    padding: 1.2rem 0rem 1.2rem 1rem;
+    text-transform: uppercase;
+}
+
+aside p, aside iframe {
+    background-color: #353232;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    width: 100%;
+}
+
+aside blockquote {
+    background-color: #353232;
+    padding: 2rem 3rem 1rem 4rem;
+    color: white;
+    width: 100%;
+}
+
+#videoLine {
+    background-color: #353232;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 0.1rem;
+    width: 100%; 
+    margin: 1rem auto 0rem auto;
+}
+
+.chorus {
+    border-left: 0.2rem solid yellow;
+    margin: 2rem 0rem 3rem 2.5rem;
+}
+
+.verse {
+    border-left: 0.2rem solid yellow;
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+.chorus h2, .verse h2{
+    padding: 1rem 0rem;
+    text-transform: uppercase;
+}
+
+.chorus h2 span, .verse h2 span{
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.chorus p, .verse p{
+    padding: 1rem 1.5rem;
+}
+
+#divider{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    height: 0.1rem;
+    width: 80%; 
+    margin: auto;
+}
+
+footer{
+    height: 0.1rem;
+    width: 80%; 
+    margin: auto;
+    padding: 1.8rem 0rem 10rem 0rem;
+    display: flex;
+}
+
+cite{
+    margin-top: 1rem;
+}
+
+cite a {
+    background-color: yellow;
+    color: black;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    padding: 0.1rem 0.5rem 0.1rem 0rem;
+    /* This is the Wikipedia reference, highlighted in yellow*/
+}
+
+#reference{
+    color: yellow;
+    /* This is the cite "1" yellow reference*/
+}
